@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #f7fafc;
+}
+.container2__img {
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cadastro__h2 {
+  color: #1a202c;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.8em;
+}
+
+.form__control {
+  display: flex;
+  flex-direction: column;
+}
+.form__name__label {
+  color: #1a202c;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.form__email__label {
+  color: #1a202c;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.form__password__label {
+  color: #1a202c;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.form__input {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  width: 350px;
+  height: 50px;
+}
+.form__input::placeholder {
+  padding-left: 1em;
+}
+.form__btn {
+  background-color: #04c35c;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 1.5em;
+  width: 347px;
+  height: 50px;
+}
+
+.error span {
+  visibility: visible;
+  font-size: 14px;
+  color: red;
+}
+
+/*# sourceMappingURL=cadastro.css.map */

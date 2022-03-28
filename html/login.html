@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="/image/login3.svg" alt="" class="container__img" />
+    </div>
+
+    <div class="container2">
+    <section class="login">
+        <h4 class="login__h4">Bem vindo de volta</h4>
+        <h2 class="login__h2">Faça login na sua conta</h2>
+
+        <form action="" class="form">
+          <label for="email" class="form__email__label">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@gmail.com"
+            class="form__input"
+          />
+
+          <label for="senha" class="form__password__label">Senha:</label>
+          <input
+            type="password"
+            name="senha"
+            id="password"
+            placeholder="************"
+            class="form__input"
+          />
+
+          <div class="form__radio">
+            <div class="form__radio__container">
+              <input type="radio" />
+              <label>Lembre de mim</label>
+            </div>
+
+            <a href="#" class="form__radio__link">Esqueceu da senha?</a>
+          </div>
+
+          <button class="form__btn__entrar">Entrar</button>
+          <button class="form__btn__google">
+            <img
+              src="/image/google_icon.svg"
+              alt="Google Icon"
+              class="form__btn__google__icon"
+            />
+            Ou faça login com o Google
+          </button>
+        <p class="cadastro">Não tem uma conta?
+          <a href="./cadastro.html" class="cadastro__link">Cadastre-se</a>
+        </p>
+        </form>
+    </div>
+    </section>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
